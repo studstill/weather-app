@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link href="img/favicon.ico" rel="icon" type="image/x-icon" />
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="weather.css">
+  <title>Weather Forecast</title>
+</head>
+<body data-ng-app="weatherApp" data-ng-controller="weatherCtrl" ng-cloak>
+  <h1 id="loading" ng-if="!currentTemp">
+    Retrieving weather information...
+  </h1>
+  <article ng-init="getWeather()" ng-show="currentTemp" class="center-block wrap">
+    <h2>Current Weather for</h2>
+    <h1> {{ locationName }}</h1>
+    <img src="img/{{icon}}.png"><span ng-if="currentTemp">{{ currentTemp }}&deg;F</span>
+  </article>
+
+  <div class="weather" data-ng-model="city">
+    <form ng-if="currentTemp" name="newWeather" data-ng-submit="getTemp(city); city=null">
+      <input type="text" data-ng-model="city" required/>
+      <button type="submit">Get Weather</button>
+    </form>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js"></script>
+  <script type="text/javascript" src="weather.js"></script>
+</body>
+</html>

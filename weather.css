@@ -1,0 +1,47 @@
+h1, h2 {
+  font-family: "Arial"
+}
+
+h1 {
+  margin: 0;
+}
+
+#loading {
+  width: 400px;
+  text-align: center;
+  margin: 5% auto;
+}
+
+article {
+  text-align: center;;
+  width: 400px;
+  height: 250px;
+  margin: 0 auto;
+  padding: 5%;
+}
+
+img {
+  display: inline-block;
+  max-width: 50%;
+  max-height: 100%;
+}
+
+span {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 400%;
+}
+
+input[type="text"] {
+  position: relative;
+  width: 260px;
+  margin: 10px 12px 5px;
+}
+
+form {
+  text-align: center;;
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  padding: 5%;
+}
