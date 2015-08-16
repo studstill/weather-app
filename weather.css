@@ -1,3 +1,7 @@
+body {
+  width: 100%;
+}
+
 h1, h2 {
   font-family: "Arial"
 }
@@ -7,14 +11,14 @@ h1 {
 }
 
 #loading {
-  width: 400px;
+  min-width: 480px;
   text-align: center;
   margin: 5% auto;
 }
 
 article {
   text-align: center;;
-  width: 400px;
+  min-width: 480px;
   height: 250px;
   margin: 0 auto;
   padding: 5%;
@@ -22,8 +26,8 @@ article {
 
 img {
   display: inline-block;
-  max-width: 50%;
-  max-height: 100%;
+  max-width: 65%;
+  max-height: 65%;
 }
 
 span {
@@ -34,14 +38,18 @@ span {
 
 input[type="text"] {
   position: relative;
-  width: 260px;
+  min-width: 260px;
   margin: 10px 12px 5px;
 }
 
 form {
   text-align: center;;
-  width: 400px;
-  height: 400px;
+  min-width: 480px;
+  height: 480px;
   margin: 0 auto;
-  padding: 5%;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
 }
