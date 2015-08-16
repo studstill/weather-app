@@ -1,4 +1,4 @@
-#Weather Web Padd
+#Weather Web App
 
 This app uses your current location to provide real-time weather data.
 
