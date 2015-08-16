@@ -1,39 +1,54 @@
 body {
-  width: 100%;
-}
-
-h1, h2 {
-  font-family: "Arial"
+  min-width: 100%;
+  background-image: url("img/sky.jpg");
+  background-size: auto cover;
+  background-position: center;
+  position: fixed absolute ;
 }
 
 h1 {
   margin: 0;
+  font-family: "Arial";
+  font-size: 5em;
 }
 
+h2 {
+  font-family: "Arial";
+  font-size: 3em;
+}
+
+
 #loading {
-  min-width: 480px;
+  font-size: 3em;
+  max-width: 420px;
   text-align: center;
   margin: 5% auto;
 }
 
 article {
+  background-color: rgba(255, 255, 255, .7);
+  border-radius: 5px 5px 0 0;
+  box-shadow: 6px 7px 5px 0px rgba(170, 167, 175, 0.25);
   text-align: center;;
-  min-width: 480px;
-  height: 250px;
-  margin: 0 auto;
-  padding: 5%;
+  width: 420px;
+  margin: 5% auto;
+  padding-top: 2.5%;
+}
+
+.center-block.wrap {
+  margin-bottom: 0;
 }
 
 img {
   display: inline-block;
-  max-width: 65%;
-  max-height: 65%;
+  max-width: 50%;
+  max-height: 50%;
 }
 
 span {
   display: inline-block;
   vertical-align: middle;
-  font-size: 400%;
+  font-size: 5em;
 }
 
 input[type="text"] {
@@ -43,10 +58,13 @@ input[type="text"] {
 }
 
 form {
+  background-color: rgba(255, 255, 255, .7);
+  border-radius: 0 0 5px 5px;
+  box-shadow: 6px 7px 5px 0px rgba(170, 167, 175, 0.25);
   text-align: center;;
-  min-width: 480px;
-  height: 480px;
+  width: 420px;
   margin: 0 auto;
+  padding-bottom: 5%
 }
 
 button {
