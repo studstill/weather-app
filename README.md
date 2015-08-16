@@ -3,3 +3,5 @@
 This app uses your current location to provide real-time weather data.
 
 You can also search for current weather conditions for all major US cities
+
+Use the app at http://jasonstudstill.com/weather/weather.html
