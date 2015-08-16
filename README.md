@@ -1,3 +1,5 @@
-#Chrome To-do App
+#Weather Web Padd
 
-This app provides a simple to-do list with persistance via local storage.
+This app uses your current location to provide real-time weather data.
+
+You can also search for current weather conditions for all major US cities
