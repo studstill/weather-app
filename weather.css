@@ -1,6 +1,6 @@
 body {
   min-width: 100%;
-  background-image: url("img/sky.jpg");
+background-color: #729EDE;
   background-size: auto cover;
   background-position: center;
   position: fixed absolute ;
@@ -30,7 +30,7 @@ article {
   border-radius: 5px 5px 0 0;
   box-shadow: 6px 7px 5px 0px rgba(170, 167, 175, 0.25);
   text-align: center;;
-  width: 420px;
+  width: 80%;
   margin: 5% auto;
   padding-top: 2.5%;
 }
@@ -53,7 +53,7 @@ span {
 
 input[type="text"] {
   position: relative;
-  min-width: 260px;
+  width: 80%;
   margin: 10px 12px 5px;
 }
 
@@ -62,7 +62,7 @@ form {
   border-radius: 0 0 5px 5px;
   box-shadow: 6px 7px 5px 0px rgba(170, 167, 175, 0.25);
   text-align: center;;
-  width: 420px;
+  width: 80%;
   margin: 0 auto;
   padding-bottom: 5%
 }
@@ -70,4 +70,8 @@ form {
 button {
   display: block;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 400px) {
+
 }
